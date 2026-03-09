@@ -1,0 +1,41 @@
+{
+  "name": "@dominusnode/openai-functions",
+  "version": "1.2.1",
+  "description": "Dominus Node OpenAI-compatible function calling handler — dispatches LLM function calls to the Dominus Node REST API",
+  "main": "dist/handler.js",
+  "types": "dist/handler.d.ts",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "vitest run",
+    "test:py": "python -m pytest test_handler.py -v"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "keywords": [
+    "openai",
+    "function-calling",
+    "dominusnode",
+    "proxy",
+    "llm",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dominus-Node/dominusnode"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "functions.json",
+    "README.md",
+    "LICENSE"
+  ]
+}

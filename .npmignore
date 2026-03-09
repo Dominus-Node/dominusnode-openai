@@ -1,0 +1,16 @@
+node_modules/
+src/
+tests/
+*.tsbuildinfo
+coverage/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+tsconfig*.json
+vitest.config.*
+CLAUDE.md
+.claude/
